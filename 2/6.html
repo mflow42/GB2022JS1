@@ -39,7 +39,7 @@ console.log(declinationOfNumber(5, "стул", "стула", "стульев"));
     
     if (countNum % 10 === 0 
      || countNum % 10 >= 5
-     || countNum % 100 === 11) {
+     || countNum % 100 >= 11 && countNum % 100 <= 19) {
       return five;
     } else if (countNum % 10 === 1) {
       return one;
